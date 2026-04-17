@@ -19,16 +19,16 @@ jobs:
         include:
           - os: windows-latest
             name: Windows
-            artifact: LCPDF-Exporter.exe
-            asset: LCPDF-Exporter-windows.exe
+            artifact: LCPDF-exporter.exe
+            asset: LCPDF-exporter-windows.exe
           - os: ubuntu-latest
             name: Linux
-            artifact: LCPDF-Exporter
-            asset: LCPDF-Exporter-linux
+            artifact: LCPDF-exporter
+            asset: LCPDF-exporter-linux
           - os: macos-latest
             name: macOS
-            artifact: LCPDF-Exporter
-            asset: LCPDF-Exporter-macos
+            artifact: LCPDF-exporter
+            asset: LCPDF-exporter-macos
 
     steps:
       - name: Checkout code
@@ -52,7 +52,7 @@ jobs:
           pip install pyinstaller
 
       - name: Build executable
-        run: pyinstaller --onefile --windowed --name "LCPDF-Exporter" lcpdf_Exporter.py
+        run: pyinstaller --onefile --windowed --name "LCPDF-exporter" lcpdf_exporter.py
 
       - name: Rename artifact
         shell: bash
