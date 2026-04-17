@@ -1,4 +1,4 @@
-# 🔓 LCPDF Export
+# 🔓 LCPDF Exporter
 
 > Decrypt Readium LCP-protected PDF files with a clean, minimal GUI.
 
@@ -29,8 +29,8 @@ A lightweight Python tool that exports `.lcpdf` / `.lcpdf.zip` files to plain `.
 ### Setup
 
 ```bash
-git clone https://github.com/<your-username>/lcpdf_export.git
-cd lcpdf_export
+git clone https://github.com/chaiavi/lcpdf_exporter.git
+cd lcpdf_exporter
 
 python -m venv .venv
 # Windows
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 ## 🚀 Usage
 
 ```bash
-python lcpdf_export.py
+python lcpdf_exporter.py
 ```
 
 Then:
@@ -73,8 +73,8 @@ If your file uses a profile not in the list, the tool will still attempt every k
 ## 🗂️ Project structure
 
 ```
-lcpdf_export/
-├── lcpdf_export.py    # main script (GUI + crypto)
+lcpdf_exporter/
+├── lcpdf_exporter.py    # main script (GUI + crypto)
 ├── requirements.txt   # Python dependencies
 ├── .gitignore
 ├── LICENSE
