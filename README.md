@@ -4,6 +4,8 @@
 
 A lightweight Python tool that exports `.lcpdf` / `.lcpdf.zip` files to plain `.pdf` using **your own purchased passphrase**. Ships with a dark-themed Tkinter interface, automatic cover preview, and support for all known Readium LCP encryption profiles (basic, 1.0, and 2.0 → 2.9).
 
+<img width="687" height="597" alt="image" src="https://github.com/user-attachments/assets/536d1bc6-5283-402c-aa4e-697a6a2cbc08" />
+
 ---
 
 ## ✨ Features
