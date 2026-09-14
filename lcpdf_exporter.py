@@ -842,7 +842,7 @@ def main():
         path = filedialog.askopenfilename(
             title="Select an LCPDF file (.lcpdf or .lcpdf.zip)",
             filetypes=[
-                ("LCPDF files", "*.lcpdf *.lcpdf.zip"),
+                ("LCPDF files", "*.lcpdf"),
                 ("ZIP files", "*.zip"),
                 ("All files", "*.*"),
             ],
